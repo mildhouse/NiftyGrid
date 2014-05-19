@@ -873,6 +873,7 @@ abstract class Grid extends \Nette\Application\UI\Control
 	 */
 	public function filterFormSubmitted($values)
 	{
+		unset($values['do']);
 		$filters = array();
 		$paginators = array();
 		foreach($values as $gridName => $grid){
