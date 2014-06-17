@@ -1,21 +1,11 @@
 # NiftyGrid
 
-Simple and light-weight **datagrid** for *Nette framework*.
+This is extended version of NiftyGrid - a simple and light-weight **datagrid** for *Nette framework*.
+This is optimalized for the newest version of Nette (v2.2 or v2.1, no support for Nette v2.0), and Twitter Bootstrap 2 and 3.
 
 
 ## Install
-Add as *composer* dependancy to your `composer.json` file:
-
-```
-{
-	"require": {
-		"php" : ">=5.3.0",
-		"nette/nette" : "*",
-		"nifty/nifty-grid": "*"
-	}
-}
-```
-
+Extract zip file to vendor/others/NiftyGrid
 Copy resources from `resources/` directory to your public www dir and include them in template (usually in `@layout.latte`).
 
 ## Usage
