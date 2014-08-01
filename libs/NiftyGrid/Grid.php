@@ -98,6 +98,10 @@ abstract class Grid extends \Nette\Application\UI\Control
 		$this->addComponent(New \Nette\ComponentModel\Container(), "actions");
 		$this->addComponent(New \Nette\ComponentModel\Container(), "subGrids");
 
+		if($presenter->isAjax()){
+			$this->invalidateControl();
+		}
+
 		$this->configure($presenter);
 
 		if($this->isSubGrid && !empty($this->afterConfigureSettings)){
