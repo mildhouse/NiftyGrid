@@ -1,5 +1,5 @@
 {
-	"name": "nifty/nifty-grid",
+	"name": "miloslavkostir/nifty-grid",
 	"type": "nette-addon",
 	"description": "Simple & lightweight datagrid for nette",
 	"keywords": ["datagrid", "nette"],
@@ -8,11 +8,15 @@
 	"authors": [
 		{
 			"name": "Jakub Holub"
+		},
+		{
+			"name": "Miloslav Koštíř",
+			"email": "miloslav.kostir@gmail.com"
 		}
 	],
 	"require": {
 		"php" : ">=5.3.2",
-		"nette/nette" : "*",
+		"nette/nette" : ">=2.0",
 		"nette/addon-installer": "@dev"
 	},
 	"autoload": {
